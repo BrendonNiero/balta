@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pichau\\balta\\Stopwatch\\Stopwatch.csproj": {}
+    "C:\\Users\\Pichau\\balta\\texteditor\\TextEditor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pichau\\balta\\Stopwatch\\Stopwatch.csproj": {
+    "C:\\Users\\Pichau\\balta\\texteditor\\TextEditor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pichau\\balta\\Stopwatch\\Stopwatch.csproj",
-        "projectName": "Stopwatch",
-        "projectPath": "C:\\Users\\Pichau\\balta\\Stopwatch\\Stopwatch.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\balta\\texteditor\\TextEditor.csproj",
+        "projectName": "TextEditor",
+        "projectPath": "C:\\Users\\Pichau\\balta\\texteditor\\TextEditor.csproj",
         "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pichau\\balta\\Stopwatch\\obj\\",
+        "outputPath": "C:\\Users\\Pichau\\balta\\texteditor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
