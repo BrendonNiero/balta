@@ -57,5 +57,4 @@ Se você também está estudando com o **Balta.io** e quer trocar ideias ou suge
 Este repositório é destinado ao aprendizado e não possui uma licença específica. Sinta-se à vontade para explorar e estudar os códigos! 📝
 
 ---
-Desenvolvido com 💙 por [Brendon Berzins](https://github.com/seu-usuario)
-
+Desenvolvido com 💙 por [Brendon Berzins](https://github.com/BrendonNiero)
