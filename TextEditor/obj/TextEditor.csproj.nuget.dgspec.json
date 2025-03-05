@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pichau\\balta\\texteditor\\TextEditor.csproj": {}
+    "C:\\Users\\Pichau\\balta\\TextEditor\\TextEditor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pichau\\balta\\texteditor\\TextEditor.csproj": {
+    "C:\\Users\\Pichau\\balta\\TextEditor\\TextEditor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pichau\\balta\\texteditor\\TextEditor.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\balta\\TextEditor\\TextEditor.csproj",
         "projectName": "TextEditor",
-        "projectPath": "C:\\Users\\Pichau\\balta\\texteditor\\TextEditor.csproj",
+        "projectPath": "C:\\Users\\Pichau\\balta\\TextEditor\\TextEditor.csproj",
         "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pichau\\balta\\texteditor\\obj\\",
+        "outputPath": "C:\\Users\\Pichau\\balta\\TextEditor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
