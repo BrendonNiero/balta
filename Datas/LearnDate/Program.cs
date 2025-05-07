@@ -38,5 +38,13 @@ public class Program {
         string longDateFormated = String.Format("{0:s}", data);
 
         Console.WriteLine(longDateFormated);
+
+        // Comparações
+
+        var currentDateTime = DateTime.Now;
+
+        if(currentDateTime == DateTime.Now){
+            Console.WriteLine("É igual!"); // O bloco nunca vai ser executado pois ele compara mili segundos
+        }
     }
 }
