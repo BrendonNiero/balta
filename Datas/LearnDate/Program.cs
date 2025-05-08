@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 public class Program {
     public static void Main(string[] args){
@@ -46,5 +47,10 @@ public class Program {
         if(currentDateTime == DateTime.Now){
             Console.WriteLine("É igual!"); // O bloco nunca vai ser executado pois ele compara mili segundos
         }
+
+
+        //CultureInfo
+
+        var pt = new CultureInfo("pt-BR");
     }
 }
