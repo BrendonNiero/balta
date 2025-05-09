@@ -52,5 +52,7 @@ public class Program {
         //CultureInfo
 
         var pt = new CultureInfo("pt-BR");
+        // Exibe já em formato Brasileiro
+        Console.WriteLine(currentDateTime.ToString("D", pt));
     }
 }
