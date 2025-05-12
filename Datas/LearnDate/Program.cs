@@ -54,5 +54,9 @@ public class Program {
         var pt = new CultureInfo("pt-BR");
         // Exibe já em formato Brasileiro
         Console.WriteLine(currentDateTime.ToString("D", pt));
+
+        // Data Global
+        var globalDate = DateTime.UtcNow;
+        Console.WriteLine($"Horário global: {globalDate}");
     }
 }
