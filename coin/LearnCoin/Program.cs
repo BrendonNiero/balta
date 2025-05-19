@@ -10,6 +10,8 @@ namespace Program
             Console.WriteLine(salario.ToString(
             "C",
             CultureInfo.CreateSpecificCulture("pt-BR"))); // Converte para valor BR
+
+            Console.WriteLine(Math.Round(salario));
         }
     }
 }
