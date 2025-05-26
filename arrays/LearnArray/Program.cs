@@ -4,10 +4,12 @@ class Program
 {
     public static void Main(string[] args)
     {
-        List<int> meuArray = new List<int> { 11, 23, 03 };
-        List<string> frutas = new List<string> { "Mexirica", "Caqui", "Kiwi", "Pitaya" };
+        Console.WriteLine("Percorrendo um array: ");
+        List<int> Numeros = new List<int> { 323, 5445, 6, 7, 76 };
 
-        Console.WriteLine(string.Join(" | ", meuArray));
-        Console.WriteLine(string.Join(" | ", frutas));
+        foreach (int value in Numeros)
+        {
+            Console.WriteLine(value);
+        }
     }
 }
