@@ -2,13 +2,29 @@
 {
     public static void Main(string[] args)
     {
-        Cadastrar("");
+        try
+        {
+            Cadastrar("");
+        }
+        catch (MinhaException ex)
+        {
+            Console.WriteLine($"Ocorreu um erro: {ex.QuandoAconteceu}");
+        }
     }
     private static void Cadastrar(string texto)
     {
         if (string.IsNullOrEmpty(texto))
         {
-            throw new ArgumentNullException("O valor é nulo e não pode ser exibido.");
+            throw new MinhaException(DateTime.Now);
         }
+    }
+
+    public class MinhaException : Exception
+    {
+        public MinhaException(DateTime date)
+        {
+            QuandoAconteceu = date;
+        }
+        public DateTime QuandoAconteceu { get; set;  }
     }
 }
