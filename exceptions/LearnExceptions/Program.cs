@@ -1,13 +1,14 @@
-﻿List<int> valores = new List<int> { 1, 2, 3 };
-
-
-try
+﻿public class Program
 {
-    for (int i = 0; i <= 10; i++)
+    public static void Main(string[] args)
     {
-        Console.WriteLine(valores[i]);
+        Cadastrar("");
     }
-} catch(ArgumentOutOfRangeException){
-    Console.WriteLine("Indice não encontrado.");
+    private static void Cadastrar(string texto)
+    {
+        if (string.IsNullOrEmpty(texto))
+        {
+            throw new ArgumentNullException("O valor é nulo e não pode ser exibido.");
+        }
+    }
 }
-
