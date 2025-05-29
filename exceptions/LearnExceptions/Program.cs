@@ -10,6 +10,10 @@
         {
             Console.WriteLine($"Ocorreu um erro: {ex.QuandoAconteceu}");
         }
+        finally
+        {
+            Console.WriteLine("Chegou ao fim!");
+        }
     }
     private static void Cadastrar(string texto)
     {
