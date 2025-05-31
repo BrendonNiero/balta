@@ -10,9 +10,15 @@ namespace Payments
         }
     }
 
-    class Pagamento {
+    class Pagamento
+    {
         DateTime venciment;
 
-        void Pagar(){}
+        void Pagar()
+        {
+            ConsultarSaldo("884848484");
+        }
+
+        private void ConsultarSaldo(string numeroCartao) { }
     }
 }
