@@ -9,4 +9,10 @@ namespace Payments
             Console.WriteLine("Aprendendo Orientação a objetos com balta!");
         }
     }
+
+    class Pagamento {
+        DateTime venciment;
+
+        void Pagar(){}
+    }
 }
