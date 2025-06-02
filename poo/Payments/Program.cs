@@ -6,19 +6,21 @@ namespace Payments
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Aprendendo Orientação a objetos com balta!");
+            PagamentoBoleto pagamentoBoleto = new PagamentoBoleto();
+            pagamentoBoleto.vencimento = DateTime.Now;
+            Console.WriteLine("Seu pagamento vence em :", pagamentoBoleto.vencimento);
+            pagamentoBoleto.Pagar();
         }
     }
 
     class Pagamento
     {
-        DateTime venciment;
+        public DateTime vencimento;
+        public void Pagar() { }
+    }
 
-        void Pagar()
-        {
-            ConsultarSaldo("884848484");
-        }
-
-        private void ConsultarSaldo(string numeroCartao) { }
+    class PagamentoBoleto : Pagamento
+    {
+        public int num_boleto;
     }
 }
