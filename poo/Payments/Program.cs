@@ -8,6 +8,8 @@ namespace Payments
         {
             PagamentoBoleto pagamentoBoleto = new PagamentoBoleto();
             pagamentoBoleto.vencimento = DateTime.Now;
+            pagamentoBoleto.num_boleto = 534255423;
+
             Console.WriteLine("Seu pagamento vence em :", pagamentoBoleto.vencimento);
             pagamentoBoleto.Pagar();
         }
