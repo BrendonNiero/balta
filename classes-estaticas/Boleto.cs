@@ -6,5 +6,9 @@ namespace Program
         {
             return DateTime.Now;
         }
+        public static int NumeroBoleto(string user)
+        {
+            return 00000003211323;
+        }
     }
 }
