@@ -2,11 +2,14 @@
 {
 
     public class Program
-    { 
+    {
         public static void Main()
         {
             var resultadoSoma = Calcular.Somar(1, 5);
             Console.WriteLine(resultadoSoma);
+
+            var dataVencimento = Boleto.DataVencimento();
+            Console.WriteLine(dataVencimento);
         }
     }
     public static class Calcular
