@@ -22,5 +22,9 @@
         {
             return a * b;
         }
+        public static double Dividir(double value, double d) { 
+            return value / d;
+        }
     }
+
 }
