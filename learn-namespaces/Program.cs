@@ -2,4 +2,4 @@
 
 var email = new EmailService();
 
-email.Enviar("Olá mundo!");
+email.Enviar("Utilizando namespace EmailService!");
